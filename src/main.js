@@ -106,8 +106,6 @@ loadMoreBtn.addEventListener('click', async () => {
     } else {
       showLoadMoreButton();
     }
-
-    page += 1;
   } catch (error) {
     iziToast.error({
       title: 'Error',
